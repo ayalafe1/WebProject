@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="project.css">
+  <link href="https://boxicons.com/">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>טופס הזמנה</title>
+</head>
+<body dir="rtl" id="body" class="hide-scroll">
+  <div id="form">
+    <form action="sending.html" id="form2" >
+      <h1 id="h2" >יצירת קשר</h1>
+      <div id="form3">
+      <div class="input-container">
+        <span class="material-icons">
+          person_outline
+        </span>
+        <input class="input-field" type="text" placeholder="שם מלא" name="fullname" required="required" pattern="\w{}">
+      </div>
+      <div></div>
+      <div class="input-container">
+        <span class="material-icons">
+          assignment_ind
+        </span>
+        <input class="input-field" type="text" placeholder="תעודת זהות" name="passport" required="required"
+          pattern="\d{9}">
+      </div>
+      <div class="input-container">
+        <span class="material-icons">
+          home
+        </span>
+        <select style="width: 100%;">
+          <option value="0">אזור מגורים</option>
+          <option value="1">צפון</option>
+          <option value="2">דרום</option>
+          <option value="3">מרכז</option>
+
+        </select>
+      </div>
+      <div></div>
+      <div class="input-container">
+        <span class="material-icons">
+          edit_calendar
+        </span>
+
+        <input class="input-field" type="date" placeholder="תאריך לקבלת ההזמנה" name="date" required="required">
+      </div>
+      <div class="input-container">
+
+        <span class="material-icons">
+          phone
+        </span>
+        <input class="input-field" type="text" placeholder="מספר טלפון ליצירת קשר" name="phone" required="required" pattern="\d{}">
+      </div>
+      <div></div>
+      <div class="input-container">
+        <span class="material-icons">
+          email
+        </span>
+
+        <input class="input-field" type="email" placeholder="Email" name="email" required="required">
+      </div>
+    </div>
+      <span><button type="submit"  class="btn"  >שליחה</button></span>
+      
+      <span><button type="reset" class="btn"  >ניקוי טופס</button></span>
+    
+    <br><br>
+   
+    </form>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+</body>
+
+</html>
